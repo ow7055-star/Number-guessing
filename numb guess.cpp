@@ -11,7 +11,7 @@ int main()
 	int r = (rand() % 101) + 1;
 	while(1==1) {
 		int num;
-		cout << "Guess the number I'm thinking: ";
+		cout << "Guess the number I'm thinking(1-100): ";
 		cin >> num;
 		if(num == r ) {
 			cout << "\t\t                   Yayy you won!(hit run to do again)";
